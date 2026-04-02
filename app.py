@@ -59,7 +59,7 @@ if st.sidebar.button("Get Data"):
       st.write(f"**Website:** {website}")
 
       #display stock data
-      st.subheader(historical Stock Data")
+      st.subheader("historical Stock Data")
       st.dataframe(df)
 
       #plot closing price
