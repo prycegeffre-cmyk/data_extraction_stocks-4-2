@@ -36,9 +36,7 @@ if st.sidebar.button("Get Data"):
   #check if data exists
   if df.empty:
     st.error("No data found. Please check the ticker symbol or date range.")
-
     else:
-
       #show success message
       st.success(f"Data successfully extracted for {ticker}.")
 
